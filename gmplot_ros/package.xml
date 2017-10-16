@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>gmplot_ros</name>
+  <version>1.0.1</version>
+  <description>
+    Metapackage for gmplot_ros
+  </description>
+  <maintainer email="mradov@gmail.com">Micho Radovnikovich</maintainer>
+  <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <exec_depend>gmplot</exec_depend>
+  <exec_depend>gmplot_msgs</exec_depend>
+  
+  <export>
+    <metapackage/>
+  </export>
+</package> 
