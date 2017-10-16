@@ -1,0 +1,12 @@
+Source: ros-kinetic-gmplot-ros
+Section: misc
+Priority: extra
+Maintainer: Micho Radovnikovich <mradov@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-gmplot-ros
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-gmplot, ros-kinetic-gmplot-msgs
+Description: Metapackage for gmplot_ros
